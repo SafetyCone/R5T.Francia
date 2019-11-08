@@ -5,14 +5,14 @@ using R5T.Guide;
 
 namespace R5T.Francia
 {
-    public class ImageIdentity : TypedGuid
+    public class ImageFileIdentity : TypedGuid
     {
-        public ImageIdentity(Guid value)
+        public ImageFileIdentity(Guid value)
             : base(value)
         {
         }
 
-        public ImageIdentity()
+        public ImageFileIdentity()
             : this(Guid.NewGuid())
         {
         }
