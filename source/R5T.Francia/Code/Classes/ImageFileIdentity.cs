@@ -15,6 +15,12 @@ namespace R5T.Francia
             return output;
         }
 
+        public static ImageFileIdentity From(Guid value)
+        {
+            var output = new ImageFileIdentity(value);
+            return output;
+        }
+
         #endregion
 
 
